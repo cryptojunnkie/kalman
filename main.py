@@ -5,8 +5,6 @@ import numpy as np
 from pykalman import KalmanFilter
 from datetime import datetime, timedelta
 
-st.set_page_config(layout='wide')
-
 def generate_signals(z_scores):
     signals = []
     for i in range(1, len(z_scores)):
